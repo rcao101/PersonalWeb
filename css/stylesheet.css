@@ -26,3 +26,8 @@ nav{
     display:flex;
     justify-content: center;
 }
+
+.image {
+    display: flex;
+    justify-content: center;
+}
