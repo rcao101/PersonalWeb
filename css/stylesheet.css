@@ -9,6 +9,10 @@ body
     
 }
 
+nav div{
+    padding: 5px;
+}
+
 nav{
     background-color: lightblue;
     text-align: center;
