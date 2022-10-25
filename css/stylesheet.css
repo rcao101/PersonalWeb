@@ -12,8 +12,11 @@ body
 nav{
     background-color: lightblue;
     text-align: center;
+    
 }
 
 .nav-list-style{
     list-style: none;
+    display:flex;
+    justify-content: center;
 }
