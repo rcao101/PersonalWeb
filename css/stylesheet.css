@@ -22,8 +22,6 @@ body
     text-align: center;
 }
 
-
-
 .about{
 
     text-align: center;
@@ -74,4 +72,6 @@ section {
 .imgbox{
     grid-column: 2/3;
 }
+
+
 
