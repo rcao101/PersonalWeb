@@ -34,3 +34,8 @@ nav div{
 .nav-list-style {
     list-style-type: none;
 }
+
+.about{
+    display: flex;
+    justify-content: left;
+}
