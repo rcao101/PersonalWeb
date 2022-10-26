@@ -19,11 +19,18 @@ body
     float: right;
 }
 
-nav{
+nav ul{
     background-color: #A6CAD4;
-    text-align: center;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 nav div{
     padding: 5px;
+}
+
+.nav-list-style {
+    list-style-type: none;
 }
