@@ -1,33 +1,29 @@
 body
 {
-    background-color: rgb(96, 96, 196);
+    background-color: #EDDDD0 ;
 }
 
 .mainh1 {
-    color: white;
+    color: rgb(1, 1, 1);
     font-family: 'Montserrat', sans-serif;
-    display: flex;
-    justify-content: center;
-    
-}
-
-nav div{
-    padding: 5px;
-}
-
-nav{
-    background-color: lightblue;
     text-align: center;
     
 }
 
-.nav-list-style{
-    list-style: none;
-    display:flex;
-    justify-content: center;
+.about{
+
+    text-align: center;
 }
 
 .image {
-    display: flex;
-    justify-content: center;
+    float: right;
+}
+
+nav{
+    background-color: #A6CAD4;
+    text-align: center;
+}
+
+nav div{
+    padding: 5px;
 }
