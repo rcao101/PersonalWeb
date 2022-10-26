@@ -42,11 +42,22 @@ nav div{
     display: flex;
     justify-content: left;
 }
-.imgbox{
+/* .imgbox{
     flex-wrap: wrap;
     padding: 0 550px;
 }
 .column{
     flex: 50%;
   padding: 0 550px;
+} */
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 200px;
 }
+
+.imgbox{
+    grid-column: 2/3;
+}
+
