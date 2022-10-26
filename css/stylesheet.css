@@ -10,6 +10,19 @@ body
     
 }
 
+.schoolhead{
+    color: rgb(1, 1, 1);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.coursehead{
+    color: rgb(1, 1, 1);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+
 .about{
 
     text-align: center;
@@ -60,4 +73,6 @@ section {
 .imgbox{
     grid-column: 2/3;
 }
+
+
 
