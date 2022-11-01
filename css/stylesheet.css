@@ -32,6 +32,7 @@ body
 nav ul{
     background-color: #A6CAD4;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -70,7 +71,7 @@ section {
     display: grid;
     grid-template-columns:1fr 2fr ;
     grid-template-rows: 1fr;
-    border-bottom: black solid;
+    border-bottom: gray solid;
 }
 
 .python{
@@ -81,7 +82,7 @@ section {
 }
 
 .web{
-    border-bottom: black solid;
+    border-bottom: gray solid;
 }
 
 
@@ -91,15 +92,20 @@ section {
 
 
 
-
 @media (min-width:600px){
-    body{
-        ;
+    .web{
+        border-bottom: black solid;
     }
 
-    nav{
-
+    .data{
+        border-bottom: black solid;
     }
+
+    nav ul {
+    display: flex;
+    flex-direction: row;
+    }
+    
 }
 
     
