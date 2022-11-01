@@ -66,6 +66,22 @@ section {
     grid-column: 2/3;
 }
 
+.data{
+    display: flex;
+    flex-direction: row;
+}
+
+.web{
+    display: flex;
+    flex-direction: row;
+}
+
+.python{
+    display: flex;
+    flex-direction: row;
+}
+
+
 @media (min-width:600px){
     {
 
