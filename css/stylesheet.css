@@ -56,42 +56,52 @@ nav div{
 }
 
 
-section {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    grid-template-rows: repeat(3, 0.5fr);
-}
-
 .imgbox{
     grid-column: 2/3;
 }
 
 .data{
-    display: grid;
+    /* display: grid;
     grid-template-columns:1fr 2fr ;
-    grid-template-rows: 1fr;
+    grid-template-rows: 1fr; */
     border-bottom: gray solid;
-}
-
-.python{
-    display: grid;
-    grid-template-columns:1fr 2fr ;
-    grid-template-rows: 1fr;
-    
 }
 
 .web{
     border-bottom: gray solid;
 }
 
-
-.year1 {
-    grid-row: 2/3;
+.year1{
+    margin-top: 20px;
 }
 
-
-
 @media (min-width:600px){
+    section {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        grid-template-rows: repeat(3, 0.5fr);
+    }
+
+    
+    .python{
+        display: grid;
+        grid-template-columns:1fr 2fr ;
+        grid-template-rows: 1fr;
+        
+    }
+    
+    .data{
+        display: grid;
+    grid-template-columns:1fr 2fr ;
+    grid-template-rows: 1fr;
+    }
+
+    
+    .year1 {
+        grid-row: 2/3;
+        /* margin-bottom: 20px; */
+    }
+
     .web{
         border-bottom: black solid;
     }
