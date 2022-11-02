@@ -72,10 +72,12 @@ nav div{
 
 .data{
     border-bottom: gray solid;
+    margin-bottom: 10px;
 }
 
 .web{
     border-bottom: gray solid;
+    margin-bottom: 10px;
 }
 
 
@@ -125,10 +127,12 @@ nav div{
 
     .web{
         border-bottom: black solid;
+        margin-bottom: 10px;
     }
 
     .data{
         border-bottom: black solid;
+        margin-bottom: 10px;
     }
 
     nav ul {
