@@ -66,28 +66,15 @@ nav div{
 }
 
 
-section {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    grid-template-rows: repeat(3, 0.5fr);
-}
-
 .imgbox{
     grid-column: 2/3;
 }
 
 .data{
-    display: grid;
+    /* display: grid;
     grid-template-columns:1fr 2fr ;
-    grid-template-rows: 1fr;
+    grid-template-rows: 1fr; */
     border-bottom: gray solid;
-}
-
-.python{
-    display: grid;
-    grid-template-columns:1fr 2fr ;
-    grid-template-rows: 1fr;
-    
 }
 
 .web{
@@ -96,12 +83,37 @@ section {
 
 
 .year1 {
-    grid-row: 2/3;
+    margin-top: 20px;
 }
 
 
 
 @media (min-width:600px){
+
+    .year1{
+        grid-row: 2/3;
+    }
+
+    section {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        grid-template-rows: repeat(3, 0.5fr);
+    }
+
+    .data{
+        display: grid;
+        grid-template-columns:1fr 2fr ;
+        grid-template-rows: 1fr;
+       ;
+    }
+
+    .python{
+        display: grid;
+        grid-template-columns:1fr 2fr ;
+        grid-template-rows: 1fr;
+        
+    }
+
     .web{
         border-bottom: black solid;
     }
