@@ -20,13 +20,22 @@ body
     color: rgb(1, 1, 1);
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
 }
 
+nav{
+    background-color: #A6CAD4;
+}
 
 .about{
 
     text-align: center;
 }
+
 
 
 nav ul{
