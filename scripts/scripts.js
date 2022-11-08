@@ -1,7 +1,4 @@
-const courselist = ["ACIT 1420", "ACIT 1620", "COMM 1116"]
-
-
-Let Acit 1420 = {
+Let ACIT 1420 = {
     name: "System Administrators",
     code: "1420",
     program: "CIT",
@@ -19,10 +16,15 @@ Let COMM 1116 = {
     program: "CIT",
 }
 
+const courselist = ["ACIT 1420", "ACIT 1620", "COMM 1116"]
 
 let input = ""
 do {
     input = prompt ("Enter a 4 digit number");
 }
 
-while ()
+while (input.length === 4 && !isNaN(Number(input)))
+console.log(True)
+
+courselist.push()
+
