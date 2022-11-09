@@ -1,30 +1,62 @@
-Let ACIT 1420 = {
+let ACIT1420 = {
     name: "System Administrators",
     code: "1420",
     program: "CIT",
 }
 
-Let ACIT 1620 = {
+let ACIT1620 = {
     name: "Web Fundamental Technologies",
-    code: "1620",
+    code: "ACIT 1620",
     program: "CIT",
 }
 
-Let COMM 1116 = {
-    name: "System Administrators",
-    code: "1420",
+let COMM1116 = {
+    name: "Business Communications",
+    code: "COMM 1116",
     program: "CIT",
 }
 
-const courselist = ["ACIT 1420", "ACIT 1620", "COMM 1116"]
+const courseList = [ACIT1420, ACIT1620, COMM1116]
 
 let input = ""
+let initial = 0;
+
 do {
-    input = prompt ("Enter a 4 digit number");
+    if (initial === 0) {
+    input = prompt ("Enter a 4 digit course number");
+    }
+    else{
+        input = prompt ("Not a valid course code");
+    }
+    initial++
 }
 
-while (input.length === 4 && !isNaN(Number(input)))
-console.log(True)
+while(input.length != 4 || (isNaN(Number(input))));
 
-courselist.push()
+let check = 0;
+
+for (let course of courseList){
+
+    if(course.code.includes(input))
+    
+    {
+        console.log(`Yes I am taking the course: ${course.code} - ${course.name}`)
+    }
+    else{
+        check = check + 1;
+    }
+}
+
+
+if (check === courseList.length){
+    let newinput = {
+        code: input, name: null,
+    }
+
+courseList.push(newinput);
+
+console.log("success new course added");
+
+}
+
 
