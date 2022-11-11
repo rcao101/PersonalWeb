@@ -1,19 +1,19 @@
 let ACIT1420 = {
     name: "System Administrators",
     code: "1420",
-    program: "CIT",
+    
 }
 
 let ACIT1620 = {
     name: "Web Fundamental Technologies",
     code: "ACIT 1620",
-    program: "CIT",
+    
 }
 
 let COMM1116 = {
     name: "Business Communications",
     code: "COMM 1116",
-    program: "CIT",
+    
 }
 
 const courseList = [ACIT1420, ACIT1620, COMM1116]
